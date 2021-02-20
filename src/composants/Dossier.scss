@@ -1,0 +1,60 @@
+.Dossier {
+    width: 390px;
+    height: 430px;
+    margin: 10px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 4px 0px rgba(0,0,0,0.32); 
+    box-shadow: 4px 3px 4px 0px rgba(0,0,0,0.32);
+
+    img {
+        width: 100%;
+        height: 50%;
+    }
+
+    p {
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    .deplacer {
+        position: absolute;
+        padding-top: 12px;
+        padding-left: 20px;
+    }
+    
+    .cercle {
+        align-items: center;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        background-color: #1A1A1A;
+        opacity: 0.5;
+        border-radius: 50%;
+    }
+
+    .info {
+        text-align: left;
+        padding-right: 20px;
+        margin: 20px;
+
+        h2 {
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        border: transparent;
+        color: transparent;
+        outline: none;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}

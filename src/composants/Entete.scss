@@ -1,0 +1,35 @@
+.Entete {
+    background-color: #333333;
+    width: 100%;
+    margin-top: 0 auto;
+    color: #fff;
+    display: inline-block;
+    line-height: 66px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 1.7em;
+
+    .logo {
+        float: left;
+    }
+
+    .avatar {
+        float: right;
+        padding-right: 3%;
+        align-items: center;
+    }
+    .avatarText {
+        float: left;
+        padding-right: 10px;
+    }
+
+    .avatarImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        float: right;
+    }
+}
